@@ -7,7 +7,7 @@ const withStackbitComponents = require('@stackbit/components/next-stackbit-compo
 
 // sourcebit.fetch(sourcebitConfig);
 
-module.exports = withStackbitComponents({
+module.exports = {
     trailingSlash: true,
     devIndicators: {
         autoPrerender: false
