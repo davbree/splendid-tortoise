@@ -1,6 +1,6 @@
 const path = require('path');
-const sourcebit = require('sourcebit');
-const sourcebitConfig = require('./sourcebit.js');
+// const sourcebit = require('sourcebit');
+// const sourcebitConfig = require('./sourcebit.js');
 const withStackbitComponents = require('@stackbit/components/next-stackbit-components')({
     componentsMapPath: '.stackbit/components-map.json'
 });
